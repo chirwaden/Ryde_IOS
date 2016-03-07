@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668D9C691C8DE58C00C68750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D9C681C8DE58C00C68750 /* AppDelegate.swift */; };
+		668D9C6B1C8DE58C00C68750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D9C6A1C8DE58C00C68750 /* ViewController.swift */; };
+		668D9C6E1C8DE58C00C68750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668D9C6C1C8DE58C00C68750 /* Main.storyboard */; };
+		668D9C701C8DE58C00C68750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668D9C6F1C8DE58C00C68750 /* Assets.xcassets */; };
+		668D9C731C8DE58C00C68750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668D9C711C8DE58C00C68750 /* LaunchScreen.storyboard */; };
+		668D9C7E1C8DE58C00C68750 /* Ryde_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D9C7D1C8DE58C00C68750 /* Ryde_iOSTests.swift */; };
+		668D9C891C8DE58C00C68750 /* Ryde_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D9C881C8DE58C00C68750 /* Ryde_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		668D9C7A1C8DE58C00C68750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668D9C5D1C8DE58C00C68750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668D9C641C8DE58C00C68750;
+			remoteInfo = Ryde_iOS;
+		};
+		668D9C851C8DE58C00C68750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668D9C5D1C8DE58C00C68750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668D9C641C8DE58C00C68750;
+			remoteInfo = Ryde_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		668D9C651C8DE58C00C68750 /* Ryde_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ryde_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668D9C681C8DE58C00C68750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		668D9C6A1C8DE58C00C68750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		668D9C6D1C8DE58C00C68750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		668D9C6F1C8DE58C00C68750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		668D9C721C8DE58C00C68750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		668D9C741C8DE58C00C68750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668D9C791C8DE58C00C68750 /* Ryde_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ryde_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		668D9C7D1C8DE58C00C68750 /* Ryde_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ryde_iOSTests.swift; sourceTree = "<group>"; };
+		668D9C7F1C8DE58C00C68750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668D9C841C8DE58C00C68750 /* Ryde_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ryde_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		668D9C881C8DE58C00C68750 /* Ryde_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ryde_iOSUITests.swift; sourceTree = "<group>"; };
+		668D9C8A1C8DE58C00C68750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668D9C621C8DE58C00C68750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D9C761C8DE58C00C68750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D9C811C8DE58C00C68750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668D9C5C1C8DE58C00C68750 = {
+			isa = PBXGroup;
+			children = (
+				668D9C671C8DE58C00C68750 /* Ryde_iOS */,
+				668D9C7C1C8DE58C00C68750 /* Ryde_iOSTests */,
+				668D9C871C8DE58C00C68750 /* Ryde_iOSUITests */,
+				668D9C661C8DE58C00C68750 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		668D9C661C8DE58C00C68750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668D9C651C8DE58C00C68750 /* Ryde_iOS.app */,
+				668D9C791C8DE58C00C68750 /* Ryde_iOSTests.xctest */,
+				668D9C841C8DE58C00C68750 /* Ryde_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668D9C671C8DE58C00C68750 /* Ryde_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				668D9C681C8DE58C00C68750 /* AppDelegate.swift */,
+				668D9C6A1C8DE58C00C68750 /* ViewController.swift */,
+				668D9C6C1C8DE58C00C68750 /* Main.storyboard */,
+				668D9C6F1C8DE58C00C68750 /* Assets.xcassets */,
+				668D9C711C8DE58C00C68750 /* LaunchScreen.storyboard */,
+				668D9C741C8DE58C00C68750 /* Info.plist */,
+			);
+			path = Ryde_iOS;
+			sourceTree = "<group>";
+		};
+		668D9C7C1C8DE58C00C68750 /* Ryde_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				668D9C7D1C8DE58C00C68750 /* Ryde_iOSTests.swift */,
+				668D9C7F1C8DE58C00C68750 /* Info.plist */,
+			);
+			path = Ryde_iOSTests;
+			sourceTree = "<group>";
+		};
+		668D9C871C8DE58C00C68750 /* Ryde_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				668D9C881C8DE58C00C68750 /* Ryde_iOSUITests.swift */,
+				668D9C8A1C8DE58C00C68750 /* Info.plist */,
+			);
+			path = Ryde_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668D9C641C8DE58C00C68750 /* Ryde_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668D9C8D1C8DE58C00C68750 /* Build configuration list for PBXNativeTarget "Ryde_iOS" */;
+			buildPhases = (
+				668D9C611C8DE58C00C68750 /* Sources */,
+				668D9C621C8DE58C00C68750 /* Frameworks */,
+				668D9C631C8DE58C00C68750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ryde_iOS;
+			productName = Ryde_iOS;
+			productReference = 668D9C651C8DE58C00C68750 /* Ryde_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		668D9C781C8DE58C00C68750 /* Ryde_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668D9C901C8DE58C00C68750 /* Build configuration list for PBXNativeTarget "Ryde_iOSTests" */;
+			buildPhases = (
+				668D9C751C8DE58C00C68750 /* Sources */,
+				668D9C761C8DE58C00C68750 /* Frameworks */,
+				668D9C771C8DE58C00C68750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668D9C7B1C8DE58C00C68750 /* PBXTargetDependency */,
+			);
+			name = Ryde_iOSTests;
+			productName = Ryde_iOSTests;
+			productReference = 668D9C791C8DE58C00C68750 /* Ryde_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		668D9C831C8DE58C00C68750 /* Ryde_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668D9C931C8DE58C00C68750 /* Build configuration list for PBXNativeTarget "Ryde_iOSUITests" */;
+			buildPhases = (
+				668D9C801C8DE58C00C68750 /* Sources */,
+				668D9C811C8DE58C00C68750 /* Frameworks */,
+				668D9C821C8DE58C00C68750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668D9C861C8DE58C00C68750 /* PBXTargetDependency */,
+			);
+			name = Ryde_iOSUITests;
+			productName = Ryde_iOSUITests;
+			productReference = 668D9C841C8DE58C00C68750 /* Ryde_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668D9C5D1C8DE58C00C68750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dennis Chirwa";
+				TargetAttributes = {
+					668D9C641C8DE58C00C68750 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					668D9C781C8DE58C00C68750 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 668D9C641C8DE58C00C68750;
+					};
+					668D9C831C8DE58C00C68750 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 668D9C641C8DE58C00C68750;
+					};
+				};
+			};
+			buildConfigurationList = 668D9C601C8DE58C00C68750 /* Build configuration list for PBXProject "Ryde_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 668D9C5C1C8DE58C00C68750;
+			productRefGroup = 668D9C661C8DE58C00C68750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668D9C641C8DE58C00C68750 /* Ryde_iOS */,
+				668D9C781C8DE58C00C68750 /* Ryde_iOSTests */,
+				668D9C831C8DE58C00C68750 /* Ryde_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668D9C631C8DE58C00C68750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668D9C731C8DE58C00C68750 /* LaunchScreen.storyboard in Resources */,
+				668D9C701C8DE58C00C68750 /* Assets.xcassets in Resources */,
+				668D9C6E1C8DE58C00C68750 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D9C771C8DE58C00C68750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D9C821C8DE58C00C68750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668D9C611C8DE58C00C68750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668D9C6B1C8DE58C00C68750 /* ViewController.swift in Sources */,
+				668D9C691C8DE58C00C68750 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D9C751C8DE58C00C68750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668D9C7E1C8DE58C00C68750 /* Ryde_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D9C801C8DE58C00C68750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668D9C891C8DE58C00C68750 /* Ryde_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		668D9C7B1C8DE58C00C68750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668D9C641C8DE58C00C68750 /* Ryde_iOS */;
+			targetProxy = 668D9C7A1C8DE58C00C68750 /* PBXContainerItemProxy */;
+		};
+		668D9C861C8DE58C00C68750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668D9C641C8DE58C00C68750 /* Ryde_iOS */;
+			targetProxy = 668D9C851C8DE58C00C68750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		668D9C6C1C8DE58C00C68750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668D9C6D1C8DE58C00C68750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		668D9C711C8DE58C00C68750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668D9C721C8DE58C00C68750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		668D9C8B1C8DE58C00C68750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		668D9C8C1C8DE58C00C68750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668D9C8E1C8DE58C00C68750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ryde_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Ryde-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		668D9C8F1C8DE58C00C68750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ryde_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Ryde-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		668D9C911C8DE58C00C68750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ryde_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Ryde-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ryde_iOS.app/Ryde_iOS";
+			};
+			name = Debug;
+		};
+		668D9C921C8DE58C00C68750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ryde_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Ryde-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ryde_iOS.app/Ryde_iOS";
+			};
+			name = Release;
+		};
+		668D9C941C8DE58C00C68750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Ryde_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Ryde-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ryde_iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		668D9C951C8DE58C00C68750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Ryde_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Ryde-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ryde_iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668D9C601C8DE58C00C68750 /* Build configuration list for PBXProject "Ryde_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668D9C8B1C8DE58C00C68750 /* Debug */,
+				668D9C8C1C8DE58C00C68750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668D9C8D1C8DE58C00C68750 /* Build configuration list for PBXNativeTarget "Ryde_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668D9C8E1C8DE58C00C68750 /* Debug */,
+				668D9C8F1C8DE58C00C68750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		668D9C901C8DE58C00C68750 /* Build configuration list for PBXNativeTarget "Ryde_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668D9C911C8DE58C00C68750 /* Debug */,
+				668D9C921C8DE58C00C68750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		668D9C931C8DE58C00C68750 /* Build configuration list for PBXNativeTarget "Ryde_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668D9C941C8DE58C00C68750 /* Debug */,
+				668D9C951C8DE58C00C68750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 668D9C5D1C8DE58C00C68750 /* Project object */;
+}
